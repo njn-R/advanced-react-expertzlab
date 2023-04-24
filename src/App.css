@@ -33,8 +33,16 @@
   }
 }
 
+.card-container {
+  border: 1px solid black;
+  padding: 4em;
+  display: flex;
+  flex-wrap: wrap;
+}
 .card {
+  border: 1px solid black;
   padding: 2em;
+  margin: 20px 20px;
 }
 
 .read-the-docs {

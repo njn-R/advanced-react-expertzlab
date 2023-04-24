@@ -1,15 +1,15 @@
 import { useState } from 'react'
 import './App.css'
-import { UseStateArray } from './components/UseStateArray'
+import Fruits from "./components/Fruits";
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <UseStateArray/>
+      <Fruits />
     </>
-  )
+  );
 }
 
 export default App
