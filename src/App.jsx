@@ -1,13 +1,12 @@
-import { useState } from 'react'
 import './App.css'
-import Fruits from "./components/Fruits";
+import UseEffectFetch from "./components/UseEffectFetch";
+// import fruitsData from "./data/fruit";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <Fruits />
+      <UseEffectFetch />
     </>
   );
 }

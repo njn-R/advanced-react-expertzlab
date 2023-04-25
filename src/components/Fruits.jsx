@@ -1,7 +1,6 @@
 import React from 'react'
-import fruitsData from '../data/fruit'
 
-const Fruits = () => {
+const Fruits = ({fruitsData}) => {
   return (
     <div className="card-container">
       {fruitsData.map((fruit) => {
