@@ -1,12 +1,12 @@
 import './App.css'
-import UseEffectFetch from "./components/UseEffectFetch";
+import ShortCircuit from "./components/ShortCircuit";
 // import fruitsData from "./data/fruit";
 
 function App() {
 
   return (
     <>
-      <UseEffectFetch />
+      <ShortCircuit />
     </>
   );
 }
