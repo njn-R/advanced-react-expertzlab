@@ -1,14 +1,14 @@
 import './App.css'
-import ShowHide from "./components/ShowHide";
+import ReactForms2 from './components/ReactForms2'
 // import fruitsData from "./data/fruit";
 
 function App() {
 
   return (
     <>
-      <ShowHide />
+      <ReactForms2 />
     </>
-  );
+  )
 }
 
 export default App
