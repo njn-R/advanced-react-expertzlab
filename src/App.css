@@ -199,6 +199,11 @@ ul {
   letter-spacing: var(--letterSpacing);
 }
 
+.form-input-checkbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .form-input,
 .form-textarea {
   width: 100%;
