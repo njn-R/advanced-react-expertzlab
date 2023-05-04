@@ -1,12 +1,12 @@
 import './App.css'
-import UseRefHook from './components/UseRefHook'
+import UseReducerComplex from './components/UseReducerComplex'
 // import fruitsData from "./data/fruit";
 
 function App() {
 
   return (
     <>
-      <UseRefHook />
+      <UseReducerComplex />
     </>
   )
 }
