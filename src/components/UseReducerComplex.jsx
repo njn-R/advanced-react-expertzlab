@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Button, Card } from 'react-bootstrap'
-import usageReducer from '../reducers/UsageReducers'
+import usageReducer, { TYPE } from '../reducers/UsageReducers'
 
 const UseReducerComplex = () => {
   const [state, dispatch] = React.useReducer(usageReducer, {
@@ -26,7 +26,7 @@ const UseReducerComplex = () => {
             {/* Button to increment */}
             <Button
               style={{ margin: '5px 5px' }}
-              onClick={() => dispatch({ type: 'change-value', payload: 1 })}
+              onClick={() => dispatch({ type: TYPE.CHANGE_VALUE, payload: 1 })}
             >
               Increment ▲
             </Button>
@@ -36,7 +36,7 @@ const UseReducerComplex = () => {
             {/* Button to decrement */}
             <Button
               style={{ margin: '5px 5px' }}
-              onClick={() => dispatch({ type: 'change-value', payload: -1 })}
+              onClick={() => dispatch({ type: TYPE.CHANGE_VALUE, payload: -1 })}
             >
               Decrement ▼
             </Button>
@@ -50,7 +50,9 @@ const UseReducerComplex = () => {
             <Button
               className='btn-secondary'
               style={{ margin: '5px' }}
-              onClick={() => dispatch({ type: 'change-color', payload: color })}
+              onClick={() =>
+                dispatch({ type: TYPE.CHANGE_COLOR, payload: color })
+              }
             >
               Change
             </Button>
