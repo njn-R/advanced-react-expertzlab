@@ -1,12 +1,12 @@
 import './App.css'
-import UseReducerComplex from './components/UseReducerComplex'
+import Users from './components/useMemo-demo/Users'
 // import fruitsData from "./data/fruit";
 
 function App() {
 
   return (
     <>
-      <UseReducerComplex />
+      <Users />
     </>
   )
 }
